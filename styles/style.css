@@ -40,6 +40,7 @@ body {
   color: var(--cor-terciaria);
   text-decoration: none;
 }
+
 .apresentacao {
   padding: 5% 15%;
   display: flex;
@@ -47,6 +48,7 @@ body {
   justify-content: space-between;
   gap: 82px;
 }
+
 .apresentacao__conteudo {
   width: 50%;
   display: flex;
@@ -54,14 +56,33 @@ body {
   gap: 40px;
 }
 
+.apresentacao__conteudo__curriculoParagrafo {
+  display: block;
+}
+
+.apresentacao__conteudo__curriculoParagrafo {
+  display: block;   /* já é o padrão, mas pode deixar explícito */
+  margin-bottom: 1vh; /* dá um espaço entre os blocos de parágrafo */
+
+}
+
+.apresentacao__conteudo__curriculoParagrafo p {
+  display: block; /* comportamento natural de <p> */
+  font-size: 1.5rem;
+  font-family: var(--fonte-secundaria);
+  line-height: 1.6; /* espaçamento agradável entre linhas */
+}
+
 .apresentacao__conteudo__titulo {
   font-size: 2.25rem;
   font-family: var(--fonte-primaria);
 }
+
 .apresentacao__conteudo__texto {
   font-size: 1.5rem;
   font-family: var(--fonte-secundaria);
 }
+
 .apresentacao__conteudo__texto {
   display: flex;
   flex-direction: column;
@@ -109,7 +130,7 @@ body {
 .apresentacao__imagem {
   width: 50%; /* largura */
 }
-#imagem_com_borda{
+#imagem_com_borda {
   border-radius: 1rem; /* deixa os cantos arredondados */
 }
 .rodape {
