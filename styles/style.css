@@ -61,16 +61,15 @@ body {
 }
 
 .apresentacao__conteudo__curriculoParagrafo {
-  display: block;   /* já é o padrão, mas pode deixar explícito */
-  margin-bottom: 1vh; /* dá um espaço entre os blocos de parágrafo */
-
+  display: block;
+  margin-bottom: 1vh;
 }
 
 .apresentacao__conteudo__curriculoParagrafo p {
-  display: block; /* comportamento natural de <p> */
+  display: block;
   font-size: 1.5rem;
   font-family: var(--fonte-secundaria);
-  line-height: 1.6; /* espaçamento agradável entre linhas */
+  line-height: 1.6;
 }
 
 .apresentacao__conteudo__titulo {
